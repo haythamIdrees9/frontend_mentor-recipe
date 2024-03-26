@@ -5,13 +5,17 @@
     background-color: white;
     border-radius: 16px;
     font-size: 14px;
+
     @media screen and (min-width:800px) {
         font-size: 16px;
+        margin: 8rem auto 4rem auto;
 
     }
+
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     box-sizing: border-box;
     color: #302d2c;
+
     hr {
         margin: 2rem 0;
         opacity: 0.5;
@@ -21,6 +25,7 @@
     .nutrition-content {
         margin-bottom: 1rem;
         width: 100%;
+
         .row {
             display: grid;
             grid-template-columns: 50% 50%;
@@ -45,6 +50,7 @@
             font-size: 28px;
 
         }
+
         @media screen and (min-width:800px) {
             font-size: 38px;
 
@@ -63,6 +69,7 @@
 
     p {
         font-size: 12px;
+
         @media screen and (min-width:800px) {
             font-size: 16px;
 
@@ -72,7 +79,7 @@
     .preparation-time {
         background-color: #fff5fa;
         border-radius: 8px;
-        padding: 1rem;
+        padding: 1.5rem;
 
         .label {
             color: #7b284f;
@@ -91,17 +98,19 @@
             padding-left: 1rem;
 
             &:not(:last-child) {
-                margin-bottom: 8px;
+                margin-bottom: 12px;
             }
         }
     }
 
     .attribution {
         font-size: 11px;
+
         @media screen and (min-width:800px) {
             font-size: 15px;
 
         }
+
         text-align: center;
     }
 
