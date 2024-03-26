@@ -1,10 +1,14 @@
 .container {
-    width: min(500px, calc(100vw - 1rem));
+    width: min(700px, calc(100vw - 2rem));
     margin: 4rem auto;
     padding: 1.5rem;
     background-color: white;
     border-radius: 16px;
     font-size: 14px;
+    @media screen and (min-width:800px) {
+        font-size: 16px;
+
+    }
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     box-sizing: border-box;
     color: #302d2c;
@@ -41,6 +45,10 @@
             font-size: 28px;
 
         }
+        @media screen and (min-width:800px) {
+            font-size: 38px;
+
+        }
     }
 
     h2 {
@@ -55,6 +63,10 @@
 
     p {
         font-size: 12px;
+        @media screen and (min-width:800px) {
+            font-size: 16px;
+
+        }
     }
 
     .preparation-time {
@@ -86,6 +98,10 @@
 
     .attribution {
         font-size: 11px;
+        @media screen and (min-width:800px) {
+            font-size: 15px;
+
+        }
         text-align: center;
     }
 
