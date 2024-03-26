@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "YoungSerif";
+    src:
+      url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("opentype") tech(color-COLRv1),
+  }
+
+body{
+    margin: 0;
+    background-color: #f3e6d8;
+
+    .young-serif{
+        font-family: YoungSerif;
+    }
+}
